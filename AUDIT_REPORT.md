@@ -5,7 +5,6 @@
 2. [Diagnostic technique (Instrumentation)](#2-diagnostic-technique-instrumentation)
 3. [Analyse des causes racines](#3-analyse-des-causes-racines)
 4. [Optimisations recommandées](#4-optimisations-recommandées)
-5. [Recommandations](#5-recommandations)
 
 ---
 
