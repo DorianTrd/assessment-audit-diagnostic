@@ -19,7 +19,7 @@
       "name": "TaskWatch PostgreSQL",
       "driver": "PostgreSQL",
       "server": "localhost",
-      "port": 5432,
+      "port": 5433,
       "database": "taskwatch",
       "username": "taskwatch_user",
       "password": "taskwatch_password"
