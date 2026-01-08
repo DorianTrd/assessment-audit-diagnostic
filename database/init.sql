@@ -20,6 +20,16 @@ CREATE TABLE IF NOT EXISTS tasks (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE TABLE IF NOT EXISTS request_logs (
+    id SERIAL PRIMARY KEY,
+    created_at TIMESTAMP DEFAULT NOW(),
+    route TEXT,
+    method TEXT,
+    status_code INTEGER,
+    duration_ms INTEGER,
+    error_message TEXT
+);
+
 -- CREATE INDEX idx_tasks_user_id ON tasks(user_id);
 -- CREATE INDEX idx_tasks_status ON tasks(status);
 -- CREATE INDEX idx_tasks_name ON tasks(name);
